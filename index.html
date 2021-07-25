@@ -18,7 +18,7 @@
       content="JongHun Park, JongHun Park Hanyang"
     />
     <!-- Webpage Logo -->
-    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <!--<link rel="shortcut icon" href="./assets/img/favicon.ico" />-->
     <!-- Webpage Title -->
     <title>JongHun Park</title>
 
@@ -47,7 +47,7 @@
             <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
           </a>
 		  -->
-          <a aria-label="Send Email" href="kendhc123@naver.com" target="_blank">
+          <a aria-label="Send Email" href="mailto:"kendhc123@naver.com target="_blank">
             <i class="icon fa fa-envelope"></i>
           </a>
         </div>
@@ -79,14 +79,12 @@
             style="border-radius: 50%"
           />
         </picture>
-        <p>
-          I am a junior in the College of Information and Computer Sciences at the University of Massachusetts Amherst,
-          pursuing an undergraduate degree. I am majoring in Computer Science, with intent to double major in
-          Mathematics with Statistics and Data Science concentration. I'm involved as a Software Developer for BUILD
-          UMass, where I use my software engineering skills for pro-bono app/web development and tech consulting for the
-          Amherst community. I also serve as a Designer for the HackUMass Organizing Team, responsible for graphics
-          design and production for the annual hackathon. I am interested in exploring the fields of Software
-          Engineering, Data Science, and Machine Learning, and I am open to opportunities for the same.
+        <p style="text-align: left; line-height: 1.8;">
+          한양대학교 융합전자공학부에서 학사, 전자통신컴퓨터공학부에서 석사를 졸업하여 나라컨트롤 연구소에서 근무중인 박종훈입니다.
+		  신호처리 및 제어 연구실에서 음성신호 및 일반 신호처리에 대해 연구했습니다. 현재 임베디드 펌웨어 개발자로서 근무하고 있어며, BACNet 프로토콜을 지원하는 
+		  빌딩자동제어의 DDC, 온도 및 기기 제어와 HMI 개발을 진행한 수분전처리장치 등을 개발하여 유지보수 및 제품화했습니다. 산업 현장에서 많이 사용하는 Modbus와
+		  한국환경공단 굴뚝원격감시체계 CleanSYS에 적용할 수 있는 통신을 적용한 제품도 개발하고있습니다.
+          
         </p>
       </div>
 
@@ -98,28 +96,26 @@
 		  <i class="devicon-embeddedc-plain-wordmark colored"></i>
           <i class="devicon-cplusplus-plain colored"></i>
           <i class="devicon-csharp-plain colored"></i>
-          <!--<i class="devicon-javascript-plain colored"></i>-->
-          <p>My favorite languages for systems programming, software engineering, and data analysis.</p>
+          <p>여러 프로젝트에서 펌웨어 및 기타 어플리케이션을 개발하기 위해 사용했던 언어입니다.</p>
         </div>
 
-        <!-- Technology Stack #2: Front-End -->
+        <!-- Technology Stack #2: HMI -->
         <div class="tech">
           <h2>HMI</h2>
           <img src="./assets/img/icon/nextion.png" width="80">
 		  <img src="./assets/img/icon/clcd.png" width="80">
           <img src="./assets/img/icon/touchgfx.png" width="80">
-		  <p> </p>
-          <p>My preferred technologies for front-end web development and component design.</p>
+          <p>장비의 화면 등 HMI를 개발하기 위해 사용했던 플랫폼 및 툴입니다. Nextion, 캐릭터 LCD로 제품을 개발하였습니다.</p>
         </div>
 
-        <!-- Technology Stack #3: Back-End -->
+        <!-- Technology Stack #3: Firmware -->
         <div class="tech">
           <h2>Firmware</h2>
           <img src="./assets/img/icon/arm.png" width="80"> <!-- https://www.pngwing.com/en/free-png-zkcui -->
           <img src="./assets/img/icon/st.png" width="80"> <!-- https://www.pngwing.com/en/free-png-iupwm -->
           <img src="./assets/img/icon/RTOS2.png" width="80">
 
-          <p>My preferred technologies for back-end web programming and database architecture.</p>
+          <p>펌웨어 개발을 했던 환경과 기술입니다. 주로 ST사의 ARM Cortex에 FreeRTOS로 개발했습니다.</p>
         </div>
 
         <!-- Technology Stack #4: Tools -->
@@ -128,7 +124,7 @@
           <img src="./assets/img/icon/iar.png" width="80">
           <i class="devicon-visualstudio-plain colored"></i>
           <img src="./assets/img/icon/stmcube.jpg" width="80">
-          <p>My favorite tools for version control, code editing, and container orchestration.</p>
+          <p>프로그램 개발을 위해 주로 사용했던 컴파일러와 코드 에디터 및 개발 툴 입니다.</p>
         </div>
       </div>
     </section>
@@ -157,51 +153,41 @@
 			빌딩 자동제어 DDC(Direct Digital Control)의 펌웨어를 개발하는 업무를 담당했습니다. C언어를 활용하고 개발되어 온 RTOS환경을 이해하여 
 			BACNet IP, BACNet MS/TP 표준에 맞게 기존의 기능을 안정화하고 기능을 확장시켰습니다.
           </p>
-          <a class="project-link" target="_blank" href="http://www.naracontrols.co.kr/sub03/sub01_05.php">&nbsp;나라컨트롤 DDC&nbsp;</a>
+          <a class="project-link" target="_blank" href="http://www.naracontrols.co.kr/sub03/sub01_05.php"
+		  >&nbsp;나라컨트롤 DDC&nbsp;</a>
         </div>
       </div>
 
-      <!-- User Project #2: Summer 2020 Project -->
+      <!-- User Project #2: KPASS -->
       <div class="user-projects">
         <div class="images-left">
           <picture>
             <!--<source type="image/webp" srcset="./assets/img/webp/Perpetual-Crusades.webp" alt="Perpetual Crusades" />-->
-            <img src="./assets/img/jpg/prepare.jpg" />
+            <img src="./assets/img/jpg/KPASS.jpg" />
           </picture>
         </div>
         <div class="contents-right" style="text-align: center">
           <h3>수분전처리장치</h3>
-          <img
-            height="32"
-            width="32"
-            src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
-            style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
-          />
+          <img src="./assets/img/icon/nextion.png" width="50">
           &nbsp;
-          <img
-            height="32"
-            width="32"
-            src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg"
-            style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)"
-          />
+          <img src="./assets/img/icon/arm.png" width="50">
           &nbsp;
-          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
-          <p style="text-align: justify">
-            I created a two-player online dice-based board game with a theme loosely set around Dungeons & Dragons. It
-            was developed as a submission for Penn Apps XXI, using ReactJS and CSS Grid Layouts for design and hosted on
-            GitHub Pages.
+          <img src="./assets/img/icon/RTOS2.png" width="40">
+          <p style="text-align: justify; line-height: 1.8;">
+            멀티가스측정기 등의 전단에 설치되는 환경대기용/굴뚝용 수분전처리장치를 개발했습니다. 전면부 HMI 디스플레이 화면을 Nextion을 이용하여 개발하였고, ARM코어에
+			FreeRTOS를 이용하여 펌웨어를 개발했습니다. 각종 부속 장치 제어, 온도 제어, UART, SPI, I2C 통신과 일반 Analog Input, 
+			센서 칩을 이용한 RTD 읽기 등을 구현했습니다. 
           </p>
-          <a class="project-link" target="_blank" href="https://github.com/AVS1508/Summer-2020-Project"
-            >Check it out!</a
-          >
+          <a class="project-link" target="_blank" href="http://www.naracontrols.co.kr/sub03/sub04.php"
+            >&nbsp;KPASS&nbsp;</a>
         </div>
       </div>
 
-      <!-- User Project #3: COVID-19 Tracker App -->
+      <!-- User Project #3: Naraterm -->
       <div class="user-projects">
         <div class="images-right">
           <picture>
-            <img alt="Perpetual Crusades" src="./assets/img/jpg/prepare.jpg" />
+            <img alt="Perpetual Crusades" src="./assets/img/jpg/naraterm.png" />
           </picture>
         </div>
         <div class="contents" style="text-align: center">
@@ -210,18 +196,14 @@
             <img
               height="32"
               width="32"
-              src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/csharp.svg"
               style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)"
             />
           </div>
-          <p style="text-align: justify">
-            I created a web application for tracking the spread of COVID-19. Using Johns Hopkins University Center For
-            Systems Science and Engineering API, the website processes the COVID-19 data to create statistical
-            projections through graphs and charts.
+          <p style="text-align: justify; line-height: 1.8;">
+            다년간 현장경험과 지원을 바탕으로 설계하여 내부에서 사용하는 여러 프로그램을 묶어서 쓸 수 있는 프로그램을 개발하고있습니다. 
+			WPF를 기반으로하여 일반 TCP/IP 소켓 통신, Bacnet 터미널과 시리얼 통신을 지원하며, DDC에 올라가는 프로그램을 작성하고 컴파일할 수 있게 연동하였습니다.
           </p>
-          <a class="project-link" target="_blank" href="https://www.adityavsingh.com/covid19-tracker-app">
-            Check it out!
-          </a>
         </div>
       </div>
 
